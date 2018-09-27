@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add socekt.io
+
+PATH: 
+  C:\GTK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\Administrator\.nvm;C:\Program Files\nodejs;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\dotnet\;c:\python27;C:\ProgramData\chocolatey\bin;;C:\Users\Administrator\.nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;C:\Users\Administrator\.nvm\v8.9.4\node_modules\android-platform-tools\androidSDK\tools;C:\Users\Administrator\.nvm\v8.9.4\node_modules\android-platform-tools\androidSDK\platform_tools;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/socekt.io: Not found
+      at Request.params.callback [as _callback] (C:\Users\Administrator\.nvm\v8.9.4\node_modules\yarn\lib\cli.js:65327:18)
+      at Request.self.callback (C:\Users\Administrator\.nvm\v8.9.4\node_modules\yarn\lib\cli.js:133155:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\Administrator\.nvm\v8.9.4\node_modules\yarn\lib\cli.js:134138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\Administrator\.nvm\v8.9.4\node_modules\yarn\lib\cli.js:134058:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "MQx",
+    "version": "0.0.1",
+    "description": "sever end status cache and message queue",
+    "main": "index.js",
+    "author": "will hu",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

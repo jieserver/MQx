@@ -1,0 +1,12 @@
+{
+  "name": "MQx",
+  "version": "0.0.1",
+  "description": "sever end status cache and message queue",
+  "main": "index.js",
+  "author": "will hu",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "socket.io": "^2.1.1"
+  }
+}
